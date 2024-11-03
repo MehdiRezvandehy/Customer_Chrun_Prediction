@@ -80,6 +80,7 @@ Age = col1.number_input("Age", min_value=18)
 Tenure = col1.number_input("Tenure", min_value=2)
 
 col2.subheader(" ")
+col2.subheader(" ")
 Balance = col2.number_input("Balance", min_value=500)
 NumOfProducts = col2.number_input("NumOfProducts", min_value=1)
 HasCrCard = col2.selectbox("HasCrCard", options=[0, 1])
